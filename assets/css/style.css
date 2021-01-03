@@ -13,6 +13,9 @@ html{
 .clear {
     clear: both;
 }
+.text-white {
+    color: #fff !important;
+}
 
 #main{
 
@@ -179,6 +182,42 @@ html{
     
 }
 
+.tour-section {
+    background-color: #000;
+   
+}
+
+.tickets-list {
+    margin-top: 40px;
+    list-style: none;
+    background-color: #fff;
+}
+
+.tickets-list li {
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+}
+.tickets-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+
+.tickets-list .quantity {
+    float:right;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    margin-top: -3px;
+    
+}
 #footer{
 
 }
