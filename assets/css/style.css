@@ -1,0 +1,186 @@
+/* Reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Helvetica , Arial, sans-serif;
+}
+
+
+.clear {
+    clear: both;
+}
+
+#main{
+
+}
+
+#header{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 46px;
+    background-color: #000;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav ,.subnav{
+    list-style: none;
+}
+#nav > li {
+    display:inline-block;
+}
+#nav li {
+  
+    position: relative;
+}
+
+#nav>li>a{
+    color:#fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav li:hover .subnav{
+    display: block;
+}
+
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+    color:#000;
+    background-color:#ccc;
+}
+
+#nav .subnav{
+    display:none;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(19, 17, 17,0.5);
+    min-width: 160px;
+}
+
+#nav .subnav a{
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#header .search-btn {
+    float:right;
+    padding: 0 21px;
+   
+}
+#header .search-btn:hover{
+    background-color: salmon;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+
+
+#header .search-btn:hover {
+    
+}
+
+#slider{
+   position: relative;
+   margin-top: 46px;
+   padding-top: 50%;
+   background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+}
+
+#slider .text-content {
+    position: absolute; 
+    bottom: 48px;
+    /* transform: translateX(-50%);
+    left: 50%; */
+    text-align: center;
+    color: #fff;
+    width: 100%; 
+}
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+#slider .text-description {
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+
+#content{
+
+}
+
+#content .content-section{
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+#content .section-sub-heading{
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about-text{
+    text-align: justify;
+    line-height: 1.4em;
+}
+#content .member-list{
+    padding-top: 48px;
+}
+
+#content .member-item {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+
+}
+
+#content .member-name{
+    font-size: 15px;
+}
+
+#content .member-img{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+    
+}
+
+#footer{
+
+}
+
+
