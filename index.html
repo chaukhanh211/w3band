@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Band</title>
+    <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
     <div id="main">
-
         <div id="header">
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
                     <a href="">
                         More
                         <i class="ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
             </ul>
@@ -42,7 +42,7 @@
 
         <div id="content">
             <!-- Aubout section -->
-            <div class="content-section">
+            <div class="content-section" id="band">
                 <h2 class="section-heading">THE BAND</h2>
                 <p class="section-sub-heading">We love music!</p>
                 <p class="about-text">
@@ -75,7 +75,7 @@
             </div>
 
                <!-- Tour section -->
-            <div class="tour-section">
+            <div class="tour-section" id="tour">
                 <div class="content-section">
                     <h2 class="section-heading text-white">TOUR DATES</h2>
                     <p class="section-sub-heading text-white"> Remember to book your tickets!</p>
@@ -94,7 +94,7 @@
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Friday 27 November 2015</p>
-                                <button class="place-buy-btn">Buy Tickets</button>
+                                <button class="btn">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="col col-third text-center">
@@ -102,7 +102,7 @@
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
                                 <p class="place-time">Friday 28 November 2015</p>
-                                <button class="place-buy-btn">Buy Tickets</button>
+                                <button class="btn">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="col col-third text-center">
@@ -110,15 +110,15 @@
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time">Friday 29 November 2015</p>
-                                <button class="place-buy-btn">Buy Tickets</button>
+                                <button class="btn">Buy Tickets</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
               
-               <!-- Aubout section -->
-            <div class="content-section">
+            <!--Start Contact section -->
+            <div class="content-section" id="contact">
                 <h2 class="section-heading">Contact</h2>
                 <p class="section-sub-heading">We love our fans!</p>
                 
@@ -143,17 +143,28 @@
                                     <input type="email" name="" placeholder="Comment" required id="" class="form-control">
                                 </div>  
                             </div>
-                            <input class="form-submit mt-16" type="submit" value="Send" >
+                            <input class="btn pull-right mt-16" type="submit" value="Send" >
                         </form>
 
                     </div>
                 </div>
-
+            </div>
+            <!-- End Contact section -->
+            <div class="map-section">
+                <img src="./assets/img/map.jpg" alt="Map">
             </div>
         </div>
 
         <div id="footer">
-
+            <div class="socials-list">
+                <a href="#"><i class="ti-facebook"></i></a>
+                <a href="#"><i class="ti-instagram"></i></a>
+                <a href="#"><i class="ti-twitter"></i></a>
+                <a href="#"><i class="ti-pinterest"></i></a>
+                <a href="#"><i class="ti-wordpress"></i></a>
+                <a href="#"><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powered by<a href="#">DKC</a></p>
         </div>
 
     </div>
